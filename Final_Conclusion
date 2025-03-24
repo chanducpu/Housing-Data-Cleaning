@@ -1,0 +1,8 @@
+Finally Cleaned and Process Data had 40 Columns and 4929 rows .
+Considered most of the feature in Kitchen and in Floor that are appear at least 5% of houses if we wanted to reduced the number of columns ,we can consider fewer columns depending on the requirement 
+Added the 3 more columns based on the Longitude and Latitude like distance from center and the direction of longitude and latitude .
+The HOA into Log(HOA) and Lot_acers into Cube_Root(Lot_acers) for normalization .
+While doing the data profiling ,removed few rows :
+1.64 records removed ,as per the lot acres which are greater than 50.
+2.Like 3(Zeros) in year removed those rows.
+3.one Outlier in tax removed.
